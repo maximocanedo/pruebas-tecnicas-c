@@ -13,6 +13,7 @@ int exitProgram() {
 int menuPrincipal() {
     Item opciones[] = {
         Item{1, "Secuencia Fibonacci", fibonacci},
+        Item{2, "Calcular factorial", factorial},
         Item{-1, ""},
         Item{9, "Salir del programa", exitProgram}
     };

@@ -11,6 +11,7 @@ const int ACTIVE[] = {0x3, 0xF};
 #include "libraries/Menu.h"
 // Pruebas
 #include "pruebas/fibonacci.h"
+#include "pruebas/factorial.h"
 // Menús
 #include "menu/principal.h"
 
