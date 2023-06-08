@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1686194601 source:c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\main.cpp
+	<iostream>
+	"libraries/Basics.h"
+	"libraries/errores.h"
+	"libraries/rlutil.h"
+	"libraries/Menu.h"
+	"pruebas/fibonacci.h"
+	"menu/principal.h"
+
+1685047709 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\libraries\basics.h
+
+1667348852 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\libraries\errores.h
+
+1654872498 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\libraries\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1685044332 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\libraries\menu.h
+	"rlutil.h"
+
+1686195122 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\pruebas\fibonacci.h
+
+1686194600 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\menu\principal.h
+
