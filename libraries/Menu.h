@@ -66,13 +66,9 @@ void drawOptionInScreen(Item option, int x, int y, bool onHover) {
     int activeBG      = ACTIVE[0];
     int activeColor   = ACTIVE[1];
     bool esOpcion = option.esOpc();
-    if(onHover && esOpcion) { // Si el elemento en cuestión está seleccionado..
-        setBG(activeBG); // Se pinta el fondo de amarillo,
-        setCL(activeColor); // Y se escribe en blanco.
-    } else  { // Si el elemento en cuestión no está seleccionado...
-        setBG(inactiveBG); // Pintamos el fondo de rojo,
-        setCL(inactiveColor); // Y escribimos en blanco.
-    }
+    bool estaSeleccionado = onHover && esOpcion;
+    setBG(estaSeleccionado ? activeBG : inactiveBG);
+    setCL(estaSeleccionado ? activeColor : inactiveColor);
     rlutil::locate(x,y); // Nos ubicamos en la posición correspondiente...
     cout<<" "<<option.getLabel()<<" "<<endl; // Y escribimos finalmente el texto de la opción.
     setBG(inactiveBG); // Pintamos el fondo de negro,

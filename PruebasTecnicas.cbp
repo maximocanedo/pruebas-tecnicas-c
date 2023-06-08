@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="libraries/Basics.h" />
+		<Unit filename="libraries/Menu.h" />
+		<Unit filename="libraries/errores.h" />
+		<Unit filename="libraries/rlutil.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menu/principal.h" />
+		<Unit filename="pruebas/fibonacci.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
