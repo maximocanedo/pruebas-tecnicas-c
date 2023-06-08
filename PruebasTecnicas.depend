@@ -1,11 +1,14 @@
 # depslib dependency file v1.0
-1686194601 source:c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\main.cpp
+1686231355 source:c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\main.cpp
 	<iostream>
+	<string>
 	"libraries/Basics.h"
 	"libraries/errores.h"
 	"libraries/rlutil.h"
 	"libraries/Menu.h"
 	"pruebas/fibonacci.h"
+	"pruebas/factorial.h"
+	"pruebas/balanceo_parentesis.h"
 	"menu/principal.h"
 
 1685047709 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\libraries\basics.h
@@ -31,5 +34,9 @@
 
 1686195122 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\pruebas\fibonacci.h
 
-1686194600 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\menu\principal.h
+1686231299 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\menu\principal.h
+
+1686230255 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\pruebas\factorial.h
+
+1686232208 c:\users\delac\onedrive\documentos\github\pruebas-tecnicas-c\pruebas\balanceo_parentesis.h
 

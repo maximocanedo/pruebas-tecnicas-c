@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ const int ACTIVE[] = {0x3, 0xF};
 // Pruebas
 #include "pruebas/fibonacci.h"
 #include "pruebas/factorial.h"
+#include "pruebas/balanceo_parentesis.h"
 // Menús
 #include "menu/principal.h"
 

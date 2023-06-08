@@ -38,6 +38,8 @@
 		<Unit filename="libraries/rlutil.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu/principal.h" />
+		<Unit filename="pruebas/balanceo_parentesis.h" />
+		<Unit filename="pruebas/factorial.h" />
 		<Unit filename="pruebas/fibonacci.h" />
 		<Extensions />
 	</Project>
