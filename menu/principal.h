@@ -15,6 +15,7 @@ int menuPrincipal() {
         Item{1, "Secuencia Fibonacci", fibonacci},
         Item{2, "Calcular factorial", factorial},
         Item{3, "Balanceo de paréntesis", balanceo_parentesis},
+        Item{4, "Comprobar palíndromos", comprobar_palindromos},
         Item{-1, ""},
         Item{9, "Salir del programa", exitProgram}
     };

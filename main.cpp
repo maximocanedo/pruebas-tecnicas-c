@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 
 using namespace std;
 
@@ -14,12 +15,13 @@ const int ACTIVE[] = {0x3, 0xF};
 #include "pruebas/fibonacci.h"
 #include "pruebas/factorial.h"
 #include "pruebas/balanceo_parentesis.h"
+#include "pruebas/palindromos.h"
+
 // Menús
 #include "menu/principal.h"
 
 int main() {
     setlocale(LC_ALL, "");
     menuPrincipal();
-    system("pause");
     return 0;
 }
